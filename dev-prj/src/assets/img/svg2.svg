@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 110.7">
+  <path class="icon-start" fill="none" stroke="#798a96" stroke-width="4" stroke-miterlimit="10"
+        d="M30 71.7l2.1-6.9L50 59.3c5.9 0 10.7-4.8 10.7-10.7S55.9 37.8 50 37.8s-10.7 4.8-10.7 10.7c0 5.9 4.8 10.7 10.7 10.7"
+        style="stroke-dashoffset: 0.00001; stroke-dasharray: none;"></path>
+  <path class="icon-end" fill="none" stroke="#798a96" stroke-width="4" stroke-miterlimit="10"
+        d="M59.5 62.1L69.6 65l2.2 6.7" style="stroke-dashoffset: 0.00001; stroke-dasharray: none;"></path>
+</svg>

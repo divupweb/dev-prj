@@ -1,0 +1,57 @@
+<div class="wrapper">
+  <img class="feedback-image" src="../../../assets/img/svg1.svg" alt="svg1">
+  <span class="text">Если Вас интересуют каки-либо вопросы, Вы можете задать их мне.</span>
+  <form class="form" [formGroup]="form">
+    <div class="field-block">
+      <label>Ваше имя:</label>
+      <input type="text"
+             placeholder="Как вас зовут?"
+             formControlName="name"
+             [ngClass]="{ 'success-border': form.get('name').valid && form.get('name').touched ,
+           'error-border': form.get('name').invalid && form.get('name').touched }"
+      >
+      <p class="error-message" [ngClass]="{ 'error': form.get('name').invalid && form.get('name').touched }">
+        Напишите своё имя.
+      </p>
+    </div>
+    <div class="field-block">
+      <label>Ваш Email:</label>
+      <input type="email"
+             placeholder="test@mail.com"
+             formControlName="email"
+             [ngClass]="{ 'error-border': form.get('email').invalid && form.get('email').touched,
+           'success-border': form.get('email').valid && form.get('email').touched }"
+      >
+      <p class="error-message" [ngClass]="{ 'error': form.get('email').invalid && form.get('email').touched }">
+        Некорректный email.
+      </p>
+    </div>
+    <label>Интересующий Вас вопрос:</label>
+    <textarea
+      formControlName="question"
+      [ngClass]="{ 'error-border': form.get('question').invalid && form.get('question').touched,
+      'success-border': form.get('question').valid && form.get('question').touched}"
+    ></textarea>
+    <p class="error-message" [ngClass]="{ 'error': form.get('question').invalid && form.get('question').touched}">
+      Напишите Ваш вопрос.
+    </p>
+    <a class="send noselect"
+       (click)="onSubmit()"
+       [ngClass]="{
+       'send-denied':
+        form.invalid &&
+        form.get('question').touched &&
+        form.get('email').touched &&
+        form.get('name').touched,
+       'send-availed':
+        form.valid &&
+        form.get('question').touched &&
+        form.get('email').touched &&
+        form.get('name').touched}"
+    >
+      <div></div>
+      <div></div>
+      Отправить
+    </a>
+  </form>
+</div>

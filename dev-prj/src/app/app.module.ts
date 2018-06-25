@@ -20,8 +20,8 @@ import { MenuOverlayComponent } from './header/menu-overlay/menu-overlay.compone
   ],
   imports: [
     BrowserModule,
-      MainPageModule,
-      AppRoutingModule
+    MainPageModule,
+    AppRoutingModule
   ],
   providers: [DbService],
   bootstrap: [AppComponent]

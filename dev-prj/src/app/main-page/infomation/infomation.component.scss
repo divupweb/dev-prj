@@ -1,0 +1,51 @@
+.wrapper {
+  float: left;
+  width: 100%;
+  height: auto;
+  margin: 40px 0;
+  font-family: 'ffdin';
+
+  .title {
+    text-align: center;
+  }
+
+  .container {
+    max-width: 1300px;
+    max-height: 600px;
+    margin: 0 auto;
+
+    div {
+      float: left;
+      position: relative;
+      display: block;
+      width: 40%;
+      height: 50%;
+      max-height: 10%;
+      overflow: hidden;
+
+      span {
+        position: absolute;
+        left: 30px;
+        bottom: 30px;
+        font-size: 18px;
+      }
+
+      span:first-child {
+        bottom: 60px;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      img {
+        max-width: 150%;
+        vertical-align: top;
+      }
+    }
+
+    div:nth-child(1) {
+      width: 60%;
+      height: 100%;
+    }
+  }
+}

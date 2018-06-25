@@ -1,0 +1,233 @@
+.wrapper {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 50px 22.5%;
+  background: #0d1017;
+  font-family: Roboto;
+
+  .feedback-image {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    transition: ease .5s;
+    z-index: 100;
+
+    &:hover {
+      transform: rotate(360deg);
+    }
+  }
+
+  .text {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #798a96;
+    font-size: 24px;
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: -95px;
+      left: calc((100% - 72px)/2);
+      width: 80px;
+      height: 80px;
+      background: url("../../../assets/img/svg2.svg");
+    }
+  }
+
+  .form {
+    width: 100%;
+    text-align: center;
+
+    .field-block {
+      display: block;
+      float: left;
+      width: calc((100% - 10px)/2);
+    }
+
+    .field-block:first-child {
+      margin-right: 10px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      text-align: left;
+      color: #798a96;
+      font-size: 16px;
+    }
+
+    input {
+      width: 100%;
+      padding:5px;
+      background: #0d1017;
+      border: 1px solid #798a96;
+      font-weight: bold;
+      color: white;
+      font-family: "ffdin";
+
+      &:hover {
+        transition: 0.3s all;
+        background: white;
+        color: #0d1017;
+      }
+
+      &:not(:hover) {
+        transition: 0.7s all;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      height: 100px;
+      padding:5px;
+      border: 1px solid #798a96;
+      resize: none;
+      background: #0d1017;
+      font-weight: bold;
+      color: white;
+      font-family: 'ffdin';
+
+      &:hover {
+        transition: 0.3s all;
+        background: white;
+        color: #0d1017;
+      }
+
+      &:not(:hover) {
+        transition: 0.7s all;
+      }
+    }
+
+    .send {
+      position: relative;
+      display: inline-block;
+      width: 170px;
+      padding: 10px 0 12px;
+      margin-top: 10px;
+      cursor: pointer;
+      color: #798a96;
+      border-right: 1px solid #798a96;
+      border-left: 1px solid #798a96;
+
+      &:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 40px;
+        height: 0;
+        border-top: 1px solid #798a96;
+        transition: .5s all;
+      }
+
+      &:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 115px;
+        height: 0;
+        border-top: 1px solid #798a96;
+        transition: .5s all;
+      }
+
+      div {
+        position: absolute;
+        height: 0;
+        transition: .5s all;
+      }
+
+      div:first-child {
+        top: 0;
+        left: 0;
+        width: 115px;
+        border-top: 1px solid #798a96;
+      }
+
+      div:last-child {
+        top: 0;
+        right: 0;
+        width: 40px;
+        border-top: 1px solid #798a96;
+      }
+
+      &:hover {
+        &:before,
+        div:last-child {
+          transition: .5s all;
+          width: 115px;
+        }
+
+        &:after,
+        div:first-child {
+          transition: .5s all;
+          width: 40px;
+        }
+      }
+    }
+  }
+
+  .error-message {
+    margin: 5px 0 10px 0;
+    visibility: hidden;
+    opacity: 0;
+    text-align: left;
+    color: red;
+    font-size: 14px;
+    transition: 0.3s all;
+  }
+
+  .error {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s all;
+  }
+
+  .error-border {
+    box-shadow: 0 0 15px red;
+    border: 1px solid red !important;
+  }
+
+  .success-border {
+    box-shadow: 0 0 15px green;
+    border: 1px solid green !important;
+  }
+
+  .send-denied {
+    border-right: 1px solid red !important;
+    border-left: 1px solid red !important;
+
+    &:before,
+    &:after,
+    div {
+      border-top: 1px solid red !important;
+    }
+  }
+
+  .send-availed {
+    border-right: 1px solid green !important;
+    border-left: 1px solid green !important;
+
+    &:before,
+    &:after,
+    div {
+      border-top: 1px solid green !important;
+    }
+  }
+
+  .noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  }
+}
+
