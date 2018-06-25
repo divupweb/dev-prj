@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'variables';
+@import '../node_modules/font-awesome/scss/font-awesome';
+*{
+  margin:0;
+  padding: 0;
+}
+body{
+  font-family: ffdin;
+}
+@font-face {
+  font-family: 'ffdin';
+  src: url('assets/fonts/ffdin.eot');
+  src: url('assets/fonts/ffdin.eot?#iefix') format('embedded-opentype'), url('assets/fonts/ffdin.woff') format('woff'), url('assets/fonts/ffdin.ttf') format('truetype'), url('assets/fonts/ffdin.svg#FontName') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}

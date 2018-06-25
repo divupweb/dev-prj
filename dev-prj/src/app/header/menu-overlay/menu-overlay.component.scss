@@ -1,0 +1,137 @@
+.menu-overlay{
+  width: 100%;
+  height: 100%;
+  min-height: 450px;
+  position: fixed;
+  z-index: 2;
+  color:white;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  display: none;
+  ul{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    li{
+      width: 100%;
+      height:100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      cursor: pointer;
+      position: relative;
+      opacity: 1;
+      background: black;
+      background-position:center ;
+      padding:500px 10px 100px 10px;
+      box-sizing: border-box;
+      top:-100%;
+      overflow: hidden;
+      animation-fill-mode: forwards;
+      span{
+        position: absolute;
+        top:0;
+        left:0;
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        cursor: pointer;
+        background-position:center ;
+        opacity: 0.4;
+        width: 100%;
+        height:100%;
+        transition: all 0.5s ease;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+      }
+      h4{
+        z-index: 1;
+        font-size:36px;
+        white-space: nowrap;
+      }
+      p{
+        text-align: center;
+        z-index: 1;
+        font-size: 22px;
+      }
+    }
+    li:hover span{
+      opacity:0.1;
+      -webkit-transform: scale(1.3);
+      -moz-transform: scale(1.3);
+      -o-transform: scale(1.3);
+    }
+    li:hover h4{
+      border-bottom:1px solid white;
+    }
+  }
+}
+.menu-overlay_show{
+  animation: show-menu 0.5s ease;
+}
+.menu-overlay_hide{
+  animation: hide-menu 0.5s ease;
+}
+@keyframes show-menu {
+  from{
+    top:-100%;
+    opacity: 0;
+  }
+  to{
+    top:0;
+    opacity: 1;
+  }
+}
+@keyframes hide-menu {
+  from{
+    top:0;
+    opacity: 1;
+  }
+  to{
+    top:-100%;
+    opacity: 0;
+  }
+}
+@media screen and (min-width: 1920px){
+  .menu-overlay{
+    ul{
+      li{
+        justify-content: center;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1440px){
+  .menu-overlay{
+    ul{
+      li{
+        padding:300px 10px 100px 10px;
+        p{
+          font-size: 16px;
+        }
+        h4{
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+@media screen and(max-width: 768px){
+  .menu-overlay{
+    ul{
+      flex-direction: column;
+      height: auto;
+      li{
+        padding:100px 10px 100px 10px;
+        opacity: 0;
+        span{
+          background-size: auto auto;
+        }
+      }
+    }
+  }
+}

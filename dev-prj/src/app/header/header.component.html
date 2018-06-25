@@ -1,3 +1,13 @@
-<p>
-  header works!
-</p>
+<header id="header" class="header" blockFixed>
+  <div class="header__logotype">
+    <img id="logotype" src="../../assets/images/angular-logotype-white.png" height="64" alt="logotype">
+    <h3>dev-prj.by | Angular</h3>
+    <p>powered by</p>
+  </div>
+  <div class="header__menu">
+     <h3 class="header__tittle">front-end developer</h3>
+      <i class="fa fa-vk header__vk" (click)="redirectTo()"></i>
+      <div #toggle id="header__button" class="header__button" (click)="menuToggle()">≡</div>
+  </div>
+</header>
+<app-menu-overlay></app-menu-overlay>

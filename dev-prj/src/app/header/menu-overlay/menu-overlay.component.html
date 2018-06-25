@@ -1,0 +1,5 @@
+<div class="menu-overlay" id="menu-overlay">
+ <ul>
+     <li *ngFor="let item of menu" (click)="navigate(item.href)"><span></span><h4>{{item.title | uppercase}}</h4><p>{{item.description}}</p></li>
+ </ul>
+</div>

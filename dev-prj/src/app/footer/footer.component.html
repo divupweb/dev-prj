@@ -1,3 +1,18 @@
-<p>
-  footer works!
-</p>
+<footer class="footer">
+ <div class="footer__align">
+     <div class="footer__information">
+         <p>Ищу работу front-end developer</p>
+         <div class="footer__pictures">
+             <div class="footer__pictures-item footer__pictures__item-html"></div>
+             <div class="footer__pictures-item footer__pictures__item-css"></div>
+             <div class="footer__pictures-item footer__pictures__item-js"></div>
+             <div class="footer__pictures-item footer__pictures__item-angular"></div>
+             <div class="footer__pictures-item footer__pictures__item-git"></div>
+         </div>
+         <article>© 2018 dev-prj.by, не разглашает персональные данные своих пользователей и гарантирует их безопасность.Используются сведения, предоставляемые пользователем, исключительно с целью связи с ним, в том числе для направления электронных уведомлений.</article>
+     </div>
+   <ul>
+       <li *ngFor="let item of menu"><a href="{{item.href}}">{{item.title | uppercase}}</a></li>
+   </ul>
+     </div>
+</footer>
