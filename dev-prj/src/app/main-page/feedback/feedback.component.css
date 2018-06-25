@@ -1,0 +1,173 @@
+.wrapper {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 50px 22.5%;
+  background: #0d1017;
+  font-family: Roboto; }
+  .wrapper .feedback-image {
+    position: relative;
+    display: block;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    transition: ease .5s;
+    z-index: 100; }
+    .wrapper .feedback-image:hover {
+      transform: rotate(360deg); }
+  .wrapper .text {
+    position: relative;
+    display: block;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #798a96;
+    font-size: 24px; }
+    .wrapper .text:before {
+      content: '';
+      position: absolute;
+      top: -95px;
+      left: calc((100% - 72px)/2);
+      width: 80px;
+      height: 80px;
+      background: url("../../../assets/img/svg2.svg"); }
+  .wrapper .form {
+    width: 100%;
+    text-align: center; }
+    .wrapper .form .field-block {
+      display: block;
+      float: left;
+      width: calc((100% - 10px)/2); }
+    .wrapper .form .field-block:first-child {
+      margin-right: 10px; }
+    .wrapper .form label {
+      display: block;
+      margin-bottom: 10px;
+      text-align: left;
+      color: #798a96;
+      font-size: 16px; }
+    .wrapper .form input {
+      width: 100%;
+      padding: 5px;
+      background: #0d1017;
+      border: 1px solid #798a96;
+      font-weight: bold;
+      color: white;
+      font-family: "ffdin"; }
+      .wrapper .form input:hover {
+        transition: 0.3s all;
+        background: white;
+        color: #0d1017; }
+      .wrapper .form input:not(:hover) {
+        transition: 0.7s all; }
+    .wrapper .form textarea {
+      width: 100%;
+      height: 100px;
+      padding: 5px;
+      border: 1px solid #798a96;
+      resize: none;
+      background: #0d1017;
+      font-weight: bold;
+      color: white;
+      font-family: 'ffdin'; }
+      .wrapper .form textarea:hover {
+        transition: 0.3s all;
+        background: white;
+        color: #0d1017; }
+      .wrapper .form textarea:not(:hover) {
+        transition: 0.7s all; }
+    .wrapper .form .send {
+      position: relative;
+      display: inline-block;
+      width: 170px;
+      padding: 10px 0 12px;
+      margin-top: 10px;
+      cursor: pointer;
+      color: #798a96;
+      border-right: 1px solid #798a96;
+      border-left: 1px solid #798a96; }
+      .wrapper .form .send:before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 40px;
+        height: 0;
+        border-top: 1px solid #798a96;
+        transition: .5s all; }
+      .wrapper .form .send:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 115px;
+        height: 0;
+        border-top: 1px solid #798a96;
+        transition: .5s all; }
+      .wrapper .form .send div {
+        position: absolute;
+        height: 0;
+        transition: .5s all; }
+      .wrapper .form .send div:first-child {
+        top: 0;
+        left: 0;
+        width: 115px;
+        border-top: 1px solid #798a96; }
+      .wrapper .form .send div:last-child {
+        top: 0;
+        right: 0;
+        width: 40px;
+        border-top: 1px solid #798a96; }
+      .wrapper .form .send:hover:before,
+      .wrapper .form .send:hover div:last-child {
+        transition: .5s all;
+        width: 115px; }
+      .wrapper .form .send:hover:after,
+      .wrapper .form .send:hover div:first-child {
+        transition: .5s all;
+        width: 40px; }
+  .wrapper .error-message {
+    margin: 5px 0 10px 0;
+    visibility: hidden;
+    opacity: 0;
+    text-align: left;
+    color: red;
+    font-size: 14px;
+    transition: 0.3s all; }
+  .wrapper .error {
+    opacity: 1;
+    visibility: visible;
+    transition: 0.3s all; }
+  .wrapper .error-border {
+    box-shadow: 0 0 15px red;
+    border: 1px solid red !important; }
+  .wrapper .success-border {
+    box-shadow: 0 0 15px green;
+    border: 1px solid green !important; }
+  .wrapper .send-denied {
+    border-right: 1px solid red !important;
+    border-left: 1px solid red !important; }
+    .wrapper .send-denied:before, .wrapper .send-denied:after,
+    .wrapper .send-denied div {
+      border-top: 1px solid red !important; }
+  .wrapper .send-availed {
+    border-right: 1px solid green !important;
+    border-left: 1px solid green !important; }
+    .wrapper .send-availed:before, .wrapper .send-availed:after,
+    .wrapper .send-availed div {
+      border-top: 1px solid green !important; }
+  .wrapper .noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+               supported by Chrome and Opera */ }
+
+/*# sourceMappingURL=feedback.component.css.map */

@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("../src/assets/fonts/Roboto/Roboto.css");
+@font-face {
+  font-family: 'ffdin';
+  src: url("assets/fonts/ffdin/ffdin.eot");
+  src: url("assets/fonts/ffdin/ffdin.eot?#iefix") format("embedded-opentype"), url("assets/fonts/ffdin/ffdin.woff") format("woff"), url("assets/fonts/ffdin/ffdin.ttf") format("truetype"), url("assets/fonts/ffdin/ffdin.svg#FontName") format("svg");
+  font-style: normal;
+  font-weight: normal; }
+* {
+  box-sizing: border-box; }
+
+/*# sourceMappingURL=styles.css.map */

@@ -15,8 +15,8 @@ import {MainPageModule} from "./main-page/main-page.module";
   ],
   imports: [
     BrowserModule,
-      MainPageModule,
-      AppRoutingModule
+    MainPageModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
