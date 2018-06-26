@@ -9,6 +9,7 @@ import {MainPageModule} from "./main-page/main-page.module";
 import {BlockFixedDirective} from "./directives/block-fixed.directive";
 import {DbService} from "./db.service";
 import { MenuOverlayComponent } from './header/menu-overlay/menu-overlay.component';
+import {HttpModule} from "@angular/http";
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MenuOverlayComponent } from './header/menu-overlay/menu-overlay.compone
   imports: [
     BrowserModule,
       MainPageModule,
-      AppRoutingModule
+      AppRoutingModule,
+      HttpModule
   ],
   providers: [DbService],
   bootstrap: [AppComponent]
