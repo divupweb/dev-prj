@@ -1,27 +1,32 @@
-.wrapper {
-  float: left;
+.information {
+  display: block;
   width: 100%;
-  height: auto;
+  height: 100%;
   margin: 40px 0;
   font-family: 'ffdin';
 
-  .title {
+  .information__title {
     text-align: center;
   }
 
-  .container {
+  .information__container {
+    display: block;
     max-width: 1300px;
     max-height: 600px;
-    margin: 0 auto;
+    width: 100%;
+    height: 600px;
+    margin: 40px auto 0;
+    padding: 0 10px;
+    overflow: hidden;
 
     div {
       float: left;
-      position: relative;
       display: block;
+      position: relative;
       width: 40%;
       height: 50%;
-      max-height: 10%;
-      overflow: hidden;
+      color: white;
+      cursor: pointer;
 
       span {
         position: absolute;
@@ -37,15 +42,28 @@
         font-weight: bold;
       }
 
-      img {
-        max-width: 150%;
-        vertical-align: top;
+      &:hover {
+        transition: .3s all;
+      //  whats here do?
       }
+
     }
 
     div:nth-child(1) {
       width: 60%;
       height: 100%;
+      background: url("../../../assets/img/portfolio.jpg") no-repeat;
+      background-size: auto 120%;
+    }
+
+    div:nth-child(2) {
+      background: url("../../../assets/img/feedback.png") no-repeat;
+      background-size: auto 100%;
+    }
+
+    div:nth-child(3) {
+      background: url("../../../assets/img/about-me.jpg") no-repeat;
+      background-size: auto 100%;
     }
   }
 }

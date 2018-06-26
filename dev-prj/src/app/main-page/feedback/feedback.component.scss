@@ -1,12 +1,11 @@
-.wrapper {
+.feedback {
   display: block;
-  float: left;
   width: 100%;
   padding: 50px 22.5%;
   background: #0d1017;
   font-family: Roboto;
 
-  .feedback-image {
+  .feedback__image {
     position: relative;
     display: block;
     width: 80px;
@@ -20,7 +19,7 @@
     }
   }
 
-  .text {
+  .feedback__ask {
     position: relative;
     display: block;
     margin-bottom: 50px;
@@ -39,17 +38,17 @@
     }
   }
 
-  .form {
+  .feedback__form {
     width: 100%;
     text-align: center;
 
-    .field-block {
+    .feedback__field-block {
       display: block;
       float: left;
       width: calc((100% - 10px)/2);
     }
 
-    .field-block:first-child {
+    .feedback__field-block:first-child {
       margin-right: 10px;
     }
 
@@ -103,7 +102,7 @@
       }
     }
 
-    .send {
+    .feedback__send {
       position: relative;
       display: inline-block;
       width: 170px;
@@ -172,7 +171,7 @@
     }
   }
 
-  .error-message {
+  .feedback__error-message {
     margin: 5px 0 10px 0;
     visibility: hidden;
     opacity: 0;
@@ -228,6 +227,68 @@
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
+  }
+}
+
+@media screen and(max-width:1440px){
+  .feedback {
+    padding: 50px 14%;
+  }
+}
+@media screen and(max-width:768px) {
+  .feedback {
+    padding: 50px 10%;
+
+    .feedback__image {
+      width: 70px;
+      height: 70px;
+    }
+
+    .feedback__ask {
+      margin-bottom: 30px;
+      font-size: 20px;
+
+      &:before {
+        top: -85px;
+        left: calc((100% - 62px)/2);
+        width: 70px;
+        height: 70px;
+      }
+    }
+
+    .feedback__form {
+      .feedback__field-block {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and(max-width:425px) {
+  .feedback {
+    padding: 50px 15px;
+
+    .feedback__image {
+      width: 60px;
+      height: 60px;
+    }
+
+    .feedback__ask {
+      margin-bottom: 30px;
+      font-size: 18px;
+
+      &:before {
+        top: -75px;
+        left: calc((100% - 55px)/2);
+        width: 60px;
+        height: 60px;
+      }
+    }
+
+    .feedback__form {
+      .feedback__field-block {
+        width: 100%;
+      }
+    }
   }
 }
 
