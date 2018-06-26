@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {DbService} from "../db.service";
 
 @Component({
   selector: 'app-footer',
@@ -6,10 +7,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-
-  constructor() { }
+  menu =[];
+  constructor(private service:DbService) { }
 
   ngOnInit() {
+    this.menu = this.service.menu;
   }
 
 }

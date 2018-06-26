@@ -2,7 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb6ad9b-09f5-435f-a974-bc4909a29ba1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Проекты.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/app/db.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/app/directives/block-fixed.directive.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/app/header/menu-overlay/menu-overlay.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/app/header/menu-overlay/menu-overlay.component.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/app/header/menu-overlay/menu-overlay.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/app/header/menu-overlay/menu-overlay.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/app/header/menu-overlay/menu-overlay.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/app/header/menu-overlay/menu-overlay.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/assets/images/angular-logotype-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/assets/images/angular-logotype-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/assets/images/menu-images/about-me.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/assets/images/menu-images/feedback.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/assets/images/menu-images/portfolio.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/assets/images/menu-images/skills.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/assets/video/office-background.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/src/sdasd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dev-prj/имба.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin/ffdin.eot" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin/ffdin.otf" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin.otf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin/ffdin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin/ffdin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin/ffdin.woff" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/assets/fonts/ffdin.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/styles.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/styles.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dev-prj/src/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/dev-prj/src/styles.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,16 +64,34 @@
         <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/infomation/infomation.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="10" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
+              <caret line="12" column="10" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="infomation.component.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="infomation.component.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/infomation/infomation.component.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.component.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1400">
+              <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="657">
+              <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -61,6 +126,9 @@
         <option value="$PROJECT_DIR$/dev-prj/src/app/main-page/main-page.component.html" />
         <option value="$PROJECT_DIR$/dev-prj/src/app/main-page/infomation/infomation.component.html" />
         <option value="$PROJECT_DIR$/dev-prj/src/app/main-page/infomation/infomation.component.scss" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.css" />
+        <option value="$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.css" />
       </list>
     </option>
   </component>
@@ -121,7 +189,16 @@
               <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="main-page" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dev-prj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
+              <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="footer" type="462c0819:PsiDirectoryNode" />
+              <item name="footer.component.scss" type="620a8d5e:NestingTreeNode" />
             </path>
             <path>
               <item name="dev-prj" type="b2602c69:ProjectViewProjectNode" />
@@ -130,31 +207,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="main-page" type="462c0819:PsiDirectoryNode" />
-              <item name="feedback" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev-prj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
-              <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="main-page" type="462c0819:PsiDirectoryNode" />
-              <item name="infomation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev-prj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
-              <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="dev-prj" type="b2602c69:ProjectViewProjectNode" />
-              <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
-              <item name="dev-prj" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -173,12 +225,12 @@
     <property name="ts.external.directory.path" value="D:\Program Files\OpenServer\domains\dev-prj\dev-prj\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Проекты\dev-prj.by\dev-prj\src\app\main-page" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Проекты\dev-prj.by\dev-prj\src\app\main-page" />
       <recent name="E:\Проекты\dev-prj.by\dev-prj\src\app\main-page\main-page" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Проекты\dev-prj.by\dev-prj\src\app\main-page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,7 +262,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37562000" />
+    <option name="totallyTimeSpent" value="37949000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -261,27 +313,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/main-page/main-page.component.ts" />
-    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/main-page.component.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/main-page.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev-prj/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -412,13 +443,6 @@
     <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/main-page.component.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/app.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/main-page.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -431,13 +455,7 @@
         <state relative-caret-position="-1080" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-prj/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-prj/.gitignore" />
     <entry file="file://$PROJECT_DIR$/dev-prj/src/assets/fonts/Roboto/Roboto.css">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -449,15 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="8" column="56" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dev-prj/src/styles.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" column="103" selection-start-line="5" selection-start-column="103" selection-end-line="5" selection-end-column="103" />
-          <caret line="5" column="156" selection-start-line="5" selection-start-column="156" selection-end-line="5" selection-end-column="156" />
-          <caret line="5" column="212" selection-start-line="5" selection-start-column="212" selection-end-line="5" selection-end-column="212" />
         </state>
       </provider>
     </entry>
@@ -509,20 +518,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/infomation/infomation.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
+          <caret line="12" column="10" selection-start-line="8" selection-start-column="4" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="60" selection-start-line="7" selection-start-column="60" selection-end-line="7" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore~master">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/top-block/top-block.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-863" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-prj/src/styles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dev-prj/src/app/main-page/infomation/infomation.component.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="75" column="14" selection-start-line="75" selection-start-column="14" selection-end-line="75" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev-prj/src/app/footer/footer.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
         </state>
       </provider>
     </entry>
