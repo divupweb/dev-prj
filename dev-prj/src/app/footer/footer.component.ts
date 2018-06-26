@@ -11,7 +11,7 @@ export class FooterComponent implements OnInit {
   constructor(private service:DbService) { }
 
   ngOnInit() {
-    this.menu = this.service.menu;
+      this.service.getMenu().subscribe((data)=>{this.menu=data},()=>{this.menu=this.service.menu});
   }
 
 }
