@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InfomationComponent implements OnInit {
 
+  birthday: number;
+
   constructor() { }
 
   ngOnInit() {
+    this.birthday = new Date().getFullYear() - new Date(1991, 11, 21).getFullYear();
   }
+
+
+
+
+
+
 
 }

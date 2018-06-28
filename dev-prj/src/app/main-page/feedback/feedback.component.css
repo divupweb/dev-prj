@@ -31,6 +31,8 @@
       background: url("../../../assets/img/svg2.svg"); }
   .feedback .feedback__form {
     width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
     text-align: center; }
     .feedback .feedback__form .feedback__field-block {
       display: block;

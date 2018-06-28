@@ -1,50 +1,211 @@
+@keyframes movingLeftBorder {
+  0% {
+    height: 100%; }
+  90% {
+    height: 0; }
+  100% {
+    height: 0; } }
+@keyframes movingBottomBorder {
+  0% {
+    width: 100%; }
+  90% {
+    width: 0; }
+  100% {
+    width: 0; } }
 .information {
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin: 40px 0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  max-width: 1500px;
+  margin: 175px auto 100px;
   font-family: 'ffdin'; }
-  .information .information__title {
-    text-align: center; }
-  .information .information__container {
-    display: block;
-    max-width: 1300px;
-    max-height: 600px;
-    width: 100%;
+  .information .information__biography {
+    width: calc((100% - 10px)/2);
+    height: 100%;
+    padding: 30px 30px; }
+    .information .information__biography .information__title {
+      text-align: center;
+      font-family: Roboto;
+      font-size: 22px;
+      font-weight: 500;
+      text-transform: uppercase; }
+    .information .information__biography .information__about {
+      margin-top: 40px;
+      font-size: 20px; }
+      .information .information__biography .information__about ul {
+        list-style-type: square;
+        margin: 20px auto;
+        padding-left: 20px; }
+  .information .information__biography:first-child {
+    position: relative;
+    margin-right: 10px; }
+    .information .information__biography:first-child:after {
+      content: '';
+      position: absolute;
+      top: 5%;
+      right: -5px;
+      width: 0;
+      height: 90%;
+      border-right: 1px solid #0d1017; }
+  .information .information__biography:last-child {
+    margin-left: 10px; }
+  .information .border-left:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 580px;
+    border-left: 1px solid #0d1017;
+    animation-name: movingLeftBorder;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .information .border-left:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
     height: 600px;
-    margin: 40px auto 0;
-    padding: 0 10px;
-    overflow: hidden; }
-    .information .information__container div {
-      float: left;
-      display: block;
-      position: relative;
-      width: 40%;
-      height: 50%;
-      color: white;
-      cursor: pointer; }
-      .information .information__container div span {
-        position: absolute;
-        left: 30px;
-        bottom: 30px;
-        font-size: 18px; }
-      .information .information__container div span:first-child {
-        bottom: 60px;
-        font-family: 'Roboto';
-        font-size: 16px;
-        font-weight: bold; }
-      .information .information__container div:hover {
-        transition: .3s all; }
-    .information .information__container div:nth-child(1) {
-      width: 60%;
-      height: 100%;
-      background: url("../../../assets/img/portfolio.jpg") no-repeat;
-      background-size: auto 120%; }
-    .information .information__container div:nth-child(2) {
-      background: url("../../../assets/img/feedback.png") no-repeat;
-      background-size: auto 100%; }
-    .information .information__container div:nth-child(3) {
-      background: url("../../../assets/img/about-me.jpg") no-repeat;
-      background-size: auto 100%; }
+    border-left: 1px solid #0d1017;
+    animation-name: movingLeftBorder;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse; }
+  .information .border-bottom:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #0d1017;
+    animation-name: movingBottomBorder;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .information .border-bottom:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #0d1017;
+    animation-name: movingBottomBorder;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse; }
+  .information .border-right:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 580px;
+    border-left: 1px solid #0d1017;
+    animation-name: movingLeftBorder;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse; }
+  .information .border-right:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 600px;
+    border-left: 1px solid #0d1017;
+    animation-name: movingLeftBorder;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .information .border-top:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #0d1017;
+    animation-name: movingBottomBorder;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: reverse; }
+  .information .border-top:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #0d1017;
+    animation-name: movingBottomBorder;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .information:before {
+    content: '';
+    position: absolute;
+    top: -185px;
+    left: calc((100% - 175px)/2);
+    width: 0;
+    height: 200px;
+    border-left: 6px dashed #0d1017;
+    transform: rotate(40deg); }
+  .information:after {
+    content: '';
+    position: absolute;
+    top: -185px;
+    left: calc((100% + 175px)/2);
+    width: 0;
+    height: 200px;
+    border-left: 6px dashed #0d1017;
+    transform: rotate(140deg); }
+
+@media screen and (max-width: 768px) {
+  .information {
+    flex-direction: column; }
+    .information:before {
+      height: 150px;
+      top: -165px;
+      left: 50%;
+      transform: rotate(0deg); }
+    .information:after {
+      display: none; }
+    .information .information__biography {
+      width: 100%;
+      padding: 30px 5px; }
+      .information .information__biography:after {
+        display: none; }
+      .information .information__biography .information__title {
+        font-size: 20px; }
+      .information .information__biography .information__about {
+        font-size: 18px; } }
+@media screen and (max-width: 425px) {
+  .information {
+    flex-direction: column; }
+    .information:before {
+      height: 150px;
+      top: -165px;
+      left: 50%;
+      transform: rotate(0deg); }
+    .information:after {
+      display: none; }
+    .information .information__biography {
+      width: 100%;
+      padding: 30px 5px; }
+      .information .information__biography:after {
+        display: none; }
+      .information .information__biography .information__title {
+        font-size: 16px; }
+      .information .information__biography .information__about {
+        font-size: 14px; } }
 
 /*# sourceMappingURL=infomation.component.css.map */
