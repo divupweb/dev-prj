@@ -6,6 +6,7 @@ import { FeedbackComponent } from './feedback/feedback.component';
 import {ReactiveFormsModule} from "@angular/forms";
 import { InfomationComponent } from './infomation/infomation.component';
 import { SkillsComponent } from './skills/skills.component';
+import { WorkExpComponent } from './work-exp/work-exp.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { SkillsComponent } from './skills/skills.component';
     MainPageComponent,
     FeedbackComponent,
     InfomationComponent,
-    SkillsComponent
+    SkillsComponent,
+    WorkExpComponent
   ],
   imports: [
     CommonModule,

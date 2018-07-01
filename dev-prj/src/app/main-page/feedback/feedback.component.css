@@ -1,9 +1,38 @@
+@keyframes movingLines {
+  0% {
+    opacity: 0;
+    left: -220px; }
+  20% {
+    opacity: 1; }
+  80% {
+    opacity: 1; }
+  100% {
+    opacity: 0;
+    left: -160px; } }
 .feedback {
+  position: relative;
   display: block;
   width: 100%;
   padding: 50px 22.5%;
   background: #0d1017;
-  font-family: Roboto; }
+  font-family: Roboto;
+  overflow: hidden; }
+  .feedback .feedback__lines:before, .feedback .feedback__lines:after {
+    content: '';
+    position: absolute;
+    top: -140px;
+    left: -220px;
+    transform: rotate(45deg);
+    width: 0;
+    height: 150%;
+    border-left: 2px solid #798a96;
+    animation-name: movingLines;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .feedback .feedback__lines:after {
+    opacity: 0;
+    animation-delay: 2.5s; }
   .feedback .feedback__image {
     position: relative;
     display: block;
@@ -11,7 +40,7 @@
     height: 80px;
     margin: 0 auto 15px;
     transition: ease .5s;
-    z-index: 100; }
+    z-index: 2; }
     .feedback .feedback__image:hover {
       transform: rotate(360deg); }
   .feedback .feedback__ask {
@@ -31,7 +60,7 @@
       background: url("../../../assets/img/svg2.svg"); }
   .feedback .feedback__form {
     width: 100%;
-    max-width: 1500px;
+    max-width: 1920px;
     margin: 0 auto;
     text-align: center; }
     .feedback .feedback__form .feedback__field-block {
@@ -177,6 +206,8 @@
 @media screen and (max-width: 768px) {
   .feedback {
     padding: 50px 10%; }
+    .feedback .feedback__lines:before, .feedback .feedback__lines:after {
+      top: -160px; }
     .feedback .feedback__image {
       width: 70px;
       height: 70px; }
@@ -193,6 +224,8 @@
 @media screen and (max-width: 425px) {
   .feedback {
     padding: 50px 15px; }
+    .feedback .feedback__lines:before, .feedback .feedback__lines:after {
+      top: -20px; }
     .feedback .feedback__image {
       width: 60px;
       height: 60px; }

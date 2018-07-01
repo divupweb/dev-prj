@@ -21,6 +21,8 @@
       height: 50px; }
     .skills span:hover {
       border-bottom: 2px dashed #0d1017; }
+    .skills span:not(:hover) {
+      transition: .5s all; }
   .skills span:nth-child(1):before {
     background: url("../../../assets/img/skills_png/HTML5_logo_black.png");
     background-size: cover; }
@@ -34,16 +36,19 @@
     background: url("../../../assets/img/skills_png/js.png");
     background-size: cover; }
   .skills span:nth-child(5):before {
-    background: url("../../../assets/img/skills_png/img_411852.png");
+    background: url("../../../assets/img/skills_png/jquery-logo-png--512.png");
     background-size: cover; }
   .skills span:nth-child(6):before {
-    background: url("../../../assets/img/skills_png/mysql.png");
+    background: url("../../../assets/img/skills_png/img_411852.png");
     background-size: cover; }
   .skills span:nth-child(7):before {
-    background: url("../../../assets/img/skills_png/oracle.png");
+    background: url("../../../assets/img/skills_png/git.png");
     background-size: cover; }
   .skills span:nth-child(8):before {
-    background: url("../../../assets/img/skills_png/git.png");
+    background: url("../../../assets/img/skills_png/mysql.png");
+    background-size: cover; }
+  .skills span:nth-child(9):before {
+    background: url("../../../assets/img/skills_png/oracle.png");
     background-size: cover; }
 
 /*# sourceMappingURL=skills.component.css.map */

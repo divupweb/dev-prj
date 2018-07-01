@@ -17,7 +17,7 @@
   display: flex;
   flex-direction: row;
   width: 90%;
-  max-width: 1500px;
+  max-width: 1920px;
   margin: 175px auto 100px;
   font-family: 'ffdin'; }
   .information .information__biography {
@@ -50,124 +50,106 @@
       border-right: 1px solid #0d1017; }
   .information .information__biography:last-child {
     margin-left: 10px; }
-  .information .border-left:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 0;
-    height: 580px;
-    border-left: 1px solid #0d1017;
-    animation-name: movingLeftBorder;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; }
-  .information .border-left:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0;
-    height: 600px;
-    border-left: 1px solid #0d1017;
-    animation-name: movingLeftBorder;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: reverse; }
-  .information .border-bottom:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 0;
-    border-top: 1px solid #0d1017;
-    animation-name: movingBottomBorder;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; }
-  .information .border-bottom:after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 0;
-    border-top: 1px solid #0d1017;
-    animation-name: movingBottomBorder;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: reverse; }
-  .information .border-right:before {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 0;
-    height: 580px;
-    border-left: 1px solid #0d1017;
-    animation-name: movingLeftBorder;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-direction: reverse; }
-  .information .border-right:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 0;
-    height: 600px;
-    border-left: 1px solid #0d1017;
-    animation-name: movingLeftBorder;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; }
+  .information .border-left:before,
+  .information .border-bottom:before,
+  .information .border-right:before,
   .information .border-top:before {
     content: '';
     position: absolute;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .information .border-left:after,
+  .information .border-bottom:after,
+  .information .border-right:after,
+  .information .border-top:after {
+    content: '';
+    position: absolute;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; }
+  .information .border-left:before {
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 580px;
+    border-left: 1px solid #0d1017;
+    animation-name: movingLeftBorder; }
+  .information .border-left:after {
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 600px;
+    border-left: 1px solid #0d1017;
+    animation-name: movingLeftBorder;
+    animation-direction: reverse; }
+  .information .border-bottom:before {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #0d1017;
+    animation-name: movingBottomBorder; }
+  .information .border-bottom:after {
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    border-top: 1px solid #0d1017;
+    animation-name: movingBottomBorder;
+    animation-direction: reverse; }
+  .information .border-right:before {
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 580px;
+    border-left: 1px solid #0d1017;
+    animation-name: movingLeftBorder;
+    animation-direction: reverse; }
+  .information .border-right:after {
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 600px;
+    border-left: 1px solid #0d1017;
+    animation-name: movingLeftBorder; }
+  .information .border-top:before {
     top: 0;
     left: 0;
     width: 100%;
     height: 0;
     border-top: 1px solid #0d1017;
     animation-name: movingBottomBorder;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
     animation-direction: reverse; }
   .information .border-top:after {
-    content: '';
-    position: absolute;
     top: 0;
     right: 0;
     width: 100%;
     height: 0;
     border-top: 1px solid #0d1017;
-    animation-name: movingBottomBorder;
-    animation-duration: 15s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear; }
-  .information:before {
+    animation-name: movingBottomBorder; }
+  .information:before, .information:after {
     content: '';
     position: absolute;
     top: -185px;
-    left: calc((100% - 175px)/2);
-    width: 0;
     height: 200px;
+    width: 0;
     border-left: 6px dashed #0d1017;
+    z-index: 1; }
+  .information:before {
+    left: calc((100% - 175px)/2);
     transform: rotate(40deg); }
   .information:after {
-    content: '';
-    position: absolute;
-    top: -185px;
     left: calc((100% + 175px)/2);
-    width: 0;
-    height: 200px;
-    border-left: 6px dashed #0d1017;
     transform: rotate(140deg); }
+  .information .animation__dashed {
+    position: absolute;
+    top: -172px;
+    left: 0;
+    width: 100%;
+    height: 170px;
+    background: white;
+    z-index: 2; }
 
 @media screen and (max-width: 768px) {
   .information {

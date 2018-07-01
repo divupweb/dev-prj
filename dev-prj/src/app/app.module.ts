@@ -15,8 +15,8 @@ import { MenuOverlayComponent } from './header/menu-overlay/menu-overlay.compone
     AppComponent,
     HeaderComponent,
     FooterComponent,
-      BlockFixedDirective,
-      MenuOverlayComponent,
+    BlockFixedDirective,
+    MenuOverlayComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,4 +26,5 @@ import { MenuOverlayComponent } from './header/menu-overlay/menu-overlay.compone
   providers: [DbService],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }
