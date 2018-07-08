@@ -21,7 +21,8 @@ export class MenuOverlayComponent implements OnInit, AfterContentChecked {
   }
 
   navigate(href){
-    window.location.href=href;
+      const target = href.slice(1);
+      document.getElementById(target).scrollIntoView({ behavior: 'smooth',block: "start"});
       let menu = document.getElementById('menu-overlay');
       let list = menu.querySelectorAll('li');
       let elem = document.getElementById('header__button');
