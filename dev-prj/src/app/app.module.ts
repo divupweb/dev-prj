@@ -15,16 +15,17 @@ import {HttpModule} from "@angular/http";
     AppComponent,
     HeaderComponent,
     FooterComponent,
-      BlockFixedDirective,
-      MenuOverlayComponent,
+    BlockFixedDirective,
+    MenuOverlayComponent,
   ],
   imports: [
     BrowserModule,
     MainPageModule,
     AppRoutingModule,
-      HttpModule
+    HttpModule
   ],
   providers: [DbService],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

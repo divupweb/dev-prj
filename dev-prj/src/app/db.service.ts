@@ -4,9 +4,11 @@ import {Observable} from "rxjs/Observable";
 
 @Injectable()
 export class DbService{
-    constructor(private http:Http){}
-    menu = [
-        {
+
+  constructor(private http:Http){}
+
+  menu = [
+    {
         title:"Обо мне",
         href:'#about-me',
         image:'url(../../../assets/images/menu-images/about-me.jpg)',
@@ -31,7 +33,14 @@ export class DbService{
             description:'Вы можете ознакомится с моим опытом работы, прямо у нас на сайте.'
         }
     ];
-    getMenu(){
-        return this.http.get('http://dev-prj.by/database-connection.php').map((response:Response)=>response.json()).catch((response:Response)=>{ return Observable.throw('ошибка соединения с базой')});
-    }
+
+   getMenu(){
+       return this.http.get('http://dev-prj.by/database-connection.php').map((response:Response)=>response.json()).catch((response:Response)=>{ return Observable.throw('ошибка соединения с базой')});
+   }
+
+  send_mail(obj){
+    return this.http.post('http://dev-prj.ru/mail_send.php',obj).catch((error:Response)=>Observable.throw('Ошибка отправки сообщения'));
+  }
 }
+
+
