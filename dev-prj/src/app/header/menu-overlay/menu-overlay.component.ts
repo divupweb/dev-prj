@@ -11,7 +11,7 @@ export class MenuOverlayComponent implements OnInit, AfterContentChecked {
   constructor(private service:DbService) { }
 
   ngOnInit() {
-    this.menu=this.service.menu;
+    this.service.getMenu().subscribe((data)=>{this.menu=data},()=>{this.menu=this.service.menu});
   }
   ngAfterContentChecked(){
       let  list = document.body.querySelectorAll('li span');
@@ -21,7 +21,8 @@ export class MenuOverlayComponent implements OnInit, AfterContentChecked {
   }
 
   navigate(href){
-    window.location.href=href;
+      const target = href.slice(1);
+      document.getElementById(target).scrollIntoView({ behavior: 'smooth',block: "start"});
       let menu = document.getElementById('menu-overlay');
       let list = menu.querySelectorAll('li');
       let elem = document.getElementById('header__button');

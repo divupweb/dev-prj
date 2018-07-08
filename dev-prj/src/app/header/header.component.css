@@ -1,7 +1,7 @@
 .header {
   position: absolute;
   width: 100%;
-  padding: 50px 50px;
+  padding: 15px 15px;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -50,9 +50,6 @@
   to {
     top: 0; } }
 @media screen and (max-width: 1440px) {
-  .header {
-    padding: 25px 25px; }
-
   .header__logotype img {
     height: 48px; }
 

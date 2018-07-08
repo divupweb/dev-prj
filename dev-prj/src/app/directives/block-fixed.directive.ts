@@ -14,7 +14,7 @@ export class BlockFixedDirective implements OnInit{
               else {
                   this.renderer.removeClass(this.element.nativeElement, 'header_fixed');
                   document.getElementById('logotype').setAttribute('src', '../../assets/images/angular-logotype-white.png');
-               }
+              }
           };
      }
 }
