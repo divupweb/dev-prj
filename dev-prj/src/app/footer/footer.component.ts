@@ -13,5 +13,10 @@ export class FooterComponent implements OnInit {
   ngOnInit() {
       this.service.getMenu().subscribe((data)=>{this.menu=data},()=>{this.menu=this.service.menu});
   }
+  nav(event:Event){
+      event.preventDefault();
+      const target = (<HTMLAnchorElement>event.target).hash.slice(1);
+      document.getElementById(target).scrollIntoView({ behavior: 'smooth',block: "start"});
+  }
 
 }
