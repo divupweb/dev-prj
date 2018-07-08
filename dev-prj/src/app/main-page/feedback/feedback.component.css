@@ -40,7 +40,8 @@
     height: 80px;
     margin: 0 auto 15px;
     transition: ease .5s;
-    z-index: 2; }
+    z-index: 1;
+    user-select: none; }
     .feedback .feedback__image:hover {
       transform: rotate(360deg); }
   .feedback .feedback__ask {
@@ -49,7 +50,9 @@
     margin-bottom: 50px;
     text-align: center;
     color: #798a96;
-    font-size: 24px; }
+    font-size: 24px;
+    cursor: default;
+    user-select: none; }
     .feedback .feedback__ask:before {
       content: '';
       position: absolute;
@@ -225,7 +228,7 @@
   .feedback {
     padding: 50px 15px; }
     .feedback .feedback__lines:before, .feedback .feedback__lines:after {
-      top: -20px; }
+      top: -200px; }
     .feedback .feedback__image {
       width: 60px;
       height: 60px; }

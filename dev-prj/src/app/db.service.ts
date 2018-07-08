@@ -1,7 +1,12 @@
 import {Injectable} from "@angular/core";
+import {Observable} from "rxjs/internal/Observable";
+import {Http} from "@angular/http";
 
 @Injectable()
 export class DbService{
+
+  constructor(private http: Http) {}
+
     menu = [{
         title:"Обо мне",
         href:'#1',
@@ -26,4 +31,8 @@ export class DbService{
             description:'Вы можете ознакомится с моим опытом работы, прямо у нас на сайте.'
         }
     ];
+
+    send_mail(obj){
+      return this.http.post('http://dev-prj.ru/mail_send.php',obj).catch((error:Response)=>Observable.throw('Ошибка отправки сообщения'));
+    }
 }

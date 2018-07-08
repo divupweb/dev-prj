@@ -54,7 +54,8 @@
     height: 80px;
     margin: 0 auto 15px;
     transition: ease .5s;
-    z-index: 2;
+    z-index: 1;
+    user-select: none;
 
     &:hover {
       transform: rotate(360deg);
@@ -68,6 +69,8 @@
     text-align: center;
     color: #798a96;
     font-size: 24px;
+    cursor: default;
+    user-select: none;
 
     &:before {
       content: '';
@@ -272,6 +275,15 @@
     user-select: none; /* Non-prefixed version, currently
                                   supported by Chrome and Opera */
   }
+
+  //.eee {
+  //  position: fixed;
+  //  width: 100px;
+  //  height: 80px;
+  //  background: #798a96;
+  //  color: red;
+  //
+  //}
 }
 
 @media screen and(max-width:1440px){
